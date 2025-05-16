@@ -1,0 +1,767 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 31, 37);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232a31;
+  padding: 0 8px;
+}
+
+.main-nav .main-nav-items {
+  padding: 0 335px 0 0;
+}
+
+ul li {
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 8px;
+  padding: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(135, 193, 241);
+}
+
+ul svg {
+  position: relative;
+  top: 5px;
+  color: white;
+  padding: 0 0 0 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.buttons svg {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 308px;
+  width: 25px;
+}
+
+.buttons p {
+  padding: 8px;
+  font-size: 23px;
+  color: white;
+}
+
+#btn-1 {
+  width: 130px;
+  height: 45px;
+  background-color: #313b45;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid #313b45;
+  border-radius: 3px;
+}
+
+#btn-2 {
+  width: 130px;
+  height: 45px;
+  background-color: #009ce3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid #009ce3;
+  border-radius: 3px;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(
+    to right,
+    rgb(189, 87, 0),
+    black 20%,
+    #10687e 120%
+  );
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-variation-settings: 100;
+  margin: 10px;
+  padding: 6px;
+  gap: 10px;
+}
+
+.box-1 > span {
+  color: white;
+}
+
+.box-1 #title-1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.box-1 #title-2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#btn-3 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 220px;
+  height: 45px;
+  border: 2px solid rgb(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 0 230px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 25px;
+}
+
+.box-2 :first-child {
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 55px;
+}
+
+.box-2 :nth-child(2) {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.box-2 #btn-4 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 155px;
+  height: 45px;
+  border: 2px solid rgb(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+
+.box-3 img {
+  width: 835px;
+}
+
+.container-3 {
+  display: block;
+  padding: 10%;
+}
+
+.cards-1 {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 80px 50px 120px;
+  gap: 100px;
+  color: white;
+}
+
+.cards-1 a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.cards-1 svg {
+  width: 32px;
+  height: 16px;
+  color: white;
+}
+
+.cards-1 svg:hover {
+  color: #009ce3;
+}
+
+.cards-1 .card-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-2 {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.cards-2 img {
+  width: 200px;
+}
+
+.cards-2 .card-5 {
+  position: relative;
+  left: 17px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(16, 20, 23);
+  width: 200px;
+}
+
+.cards-2 .card-5 h4 {
+  padding: 5px 0 10px 0;
+}
+
+.cards-2 .card-5 p {
+  padding: 5px 0 75px 0;
+}
+
+.cards-2 .card-5 a {
+  text-decoration: none;
+  color: #009ce3;
+}
+
+.cards-2 .card-5 a:hover {
+  color: #009ce3;
+}
+
+.cards-2 .card-6 {
+  position: relative;
+  left: 17px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(16, 20, 23);
+  width: 200px;
+}
+
+.cards-2 .card-6 h4 {
+  padding: 5px 0 10px 0;
+}
+
+.cards-2 .card-6 p {
+  padding: 0 0 30px 0;
+}
+
+.cards-2 .card-6 a {
+  text-decoration: none;
+  color: #009ce3;
+}
+
+.cards-2 .card-6 a:hover {
+  color: #009ce3;
+}
+
+.cards-2 .card-7 {
+  position: relative;
+  left: 17px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(16, 20, 23);
+  width: 200px;
+}
+
+.cards-2 .card-7 h4 {
+  padding: 5px 0 10px 0;
+}
+
+.cards-2 .card-7 p {
+  padding: 0 0 11px 0;
+}
+
+.cards-2 .card-7 a {
+  text-decoration: none;
+  color: #009ce3;
+}
+
+.cards-2 .card-7 a:hover {
+  color: #009ce3;
+}
+
+.cards-2 .card-8 {
+  position: relative;
+  left: 17px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(16, 20, 23);
+  width: 200px;
+}
+
+.cards-2 .card-8 h4 {
+  padding: 5px 0 10px 0;
+}
+
+.cards-2 .card-8 p {
+  padding: 0 0 30px 0;
+}
+
+.cards-2 .card-8 a {
+  text-decoration: none;
+  color: #009ce3;
+}
+
+.cards-2 .card-8 a:hover {
+  color: #009ce3;
+}
+
+.container-4 {
+  background-color: white;
+  height: 1150px;
+  width: 100vw;
+}
+
+.grey {
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 50px 500px;
+  color: rgb(35, 42, 50);
+}
+
+.container-4 .grid-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.grid-1 img {
+  padding: 10px;
+}
+.grid-1 p {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.grid-1 a {
+  text-decoration: none;
+}
+
+.grid-1 a:hover {
+  color: #00aeff;
+}
+
+.grid-1 .grid-card-1 {
+  padding: 20px 30px;
+}
+
+.grid-1 .grid-card-1:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.grid-1 .grid-card-2 {
+  padding: 20px 30px;
+}
+
+.grid-1 .grid-card-2:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.grid-1 .grid-card-3 {
+  padding: 20px 30px;
+}
+
+.grid-1 .grid-card-3:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.grid-1 .grid-card-4 {
+  padding: 20px 30px;
+}
+
+.grid-1 .grid-card-4:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.grid-1 .grid-card-5 {
+  padding: 20px 30px;
+}
+
+.grid-1 .grid-card-5:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.grid-1 .grid-card-6 {
+  padding: 20px 30px;
+}
+
+.grid-1 .grid-card-6:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.product-info {
+  justify-items: center;
+  padding: 20px;
+}
+
+.product-info h4 {
+  font-size: 25px;
+  font-family: "Teko", sans-serif;
+}
+
+.product-info p {
+  font-size: 22px;
+  font-family: "Teko", sans-serif;
+  padding: 10px 0 20px 0;
+}
+
+.product-info a {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 156, 227);
+  text-decoration: none;
+  padding: 20px 0 0 0;
+}
+
+.container-5 {
+  color: white;
+  align-items: center;
+}
+
+.title-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 520px;
+  text-align: center;
+}
+
+.title-4 .white {
+  font-family: "Teko", sans-serif;
+  line-height: 50px;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 70px 0 30px 0;
+}
+
+.title-4 p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.title-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-5 .block1 {
+  padding: 100px 50px;
+  justify-items: center;
+  line-height: 60px;
+}
+
+.block1 > :first-child {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+.block1 > :nth-child(2) {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.title-5 .block2 {
+  padding: 100px 50px;
+  justify-items: center;
+  line-height: 60px;
+}
+
+.block2 > :first-child {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+.block2 > :nth-child(2) {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.title-5 .block3 {
+  padding: 100px 50px;
+  justify-items: center;
+  line-height: 60px;
+}
+
+.block3 > :first-child {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+}
+
+.block3 > :nth-child(2) {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.container-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.container-6 .info1 {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.info1 a {
+  text-decoration: none;
+}
+
+.box-4 {
+  background-color: rgb(0, 0, 0);
+  width: 430px;
+  height: 700px;
+  padding: 30px;
+}
+
+.box-4 .info2 {
+  display: flex;
+}
+
+.info2 img {
+  height: 75px;
+}
+
+.info2 .name {
+  padding: 35px 0 0 15px;
+}
+
+.box-4 .title-6 {
+  padding: 110px 0 0 0;
+}
+
+.box-4 .title-7 {
+  padding: 180px 0 0 0;
+}
+
+.container-7 {
+  padding: 20px 175px;
+  color: white;
+}
+
+.container-7 .title-8 {
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  padding: 50px 0 0 30px;
+  font-size: 30px;
+}
+
+.cards-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 100px;
+}
+
+.card-9 {
+  width: 205px;
+  background-color: black;
+  height: 300px;
+}
+.card-10 {
+  width: 205px;
+  background-color: black;
+  height: 300px;
+}
+.card-11 {
+  width: 205px;
+  background-color: black;
+  height: 300px;
+}
+.card-12 {
+  width: 205px;
+  background-color: black;
+  height: 300px;
+}
+
+.cards-3 h4 {
+  font-family: sans-serif;
+  padding: 12px;
+}
+
+.image1 {
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.image2 {
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.image3 {
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.image4 {
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cards-3 img:hover {
+  transform: scale(1.2);
+}
+
+.container-8 {
+  background-color: white;
+  color: #232a31;
+  text-align: center;
+  padding-top: 200px;
+  width: 100vw;
+  height: 300px;
+}
+
+.title-9 {
+  font-family: "Teko", sans-serif;
+  font-size: 50px;
+}
+
+.container-8 #btn-5 {
+  font-family: sans-serif;
+  background-color: #232a31;
+  color: white;
+  width: 160px;
+  height: 50px;
+  border: 2px solid #232a31;
+  text-decoration: none;
+}
+
+#btn-5 a {
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+  height: 500px;
+}
+
+.main-footer div{
+  width: 126px;
+}
+
+.main-footer ul{
+  text-align: left;
+}
+
+.main-footer ul li{
+  font-size: 14px;
+}
+
+.main-footer ul .subtitle{
+  font-weight: 100;
+}
+
+.main-footer .footer-list2{
+  width: 120px;
+}
+
+.main-footer .fooer-list3{
+  width: 120px;
+}
+
+.main-footer .footer-list4{
+  width: 200px;
+}
+
+.main-footer .footer-list5{
+  padding: 0 0 0 80px;
+}
+
+.seperation{
+  background-color: white;
+  width: 100vw;
+  height: 2px;
+}
+
+.container-9{
+  font-size: 12px;
+}
+
+.main-footer2{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  text-align: left;
+} 
+
+.sub-footer2 ul{
+  font-size: 12px;
+}
+
+.sub-footer{
+  display: flex;
+  justify-content: right;
+}
+
+.title-10{
+  padding: 0 460px 0 0;
+}
